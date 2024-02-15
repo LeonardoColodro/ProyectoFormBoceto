@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+ 
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo-1 {
+    width: 9%;
+    height: auto;
+  }
+ 
+  .logo-2 {
+    width: 25%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #df0404;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: block; /* Cambio a display: block; */
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .center-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+/* Estilos para textarea y input uno debajo del otro */
+textarea,
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* CSS modificado */
+.form-group textarea,
+.form-group input[type="number"] {
+    margin-bottom: 10px; /* Espacio entre los elementos */
+    display: block; /* Hacer que cada elemento esté en su propia línea */
+}
