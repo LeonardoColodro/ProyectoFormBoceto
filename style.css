@@ -28,17 +28,17 @@ body {
   .container {
     max-width: 45%;
     margin: 0 auto;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* padding: 20px; */
-    
-    /* border: 1px solid #ddd; */
-    /* border-radius: 4px; */
+    /* display: flex; 
+    flex-direction: column; 
+    padding: 20px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;  */
   }
+  
   
   .formClass{
     width: 100%;
-    background-color: #f71313;
+    background-color: #e2e2e2;
     border-radius: 5px;
     padding: 10px;
   }
@@ -102,5 +102,67 @@ input[type="number"] {
   display: flex;
   justify-content: space-around; /*Muevo los  botenes Jira y Excel*/
   margin-top: 15px;
+  height: 35px;
 }
 /* Contenedor de botones Cierre */
+
+.BtnJira {
+  border-radius: 7px;
+  border-color: #1387f3;
+  background-color: rgba(4, 115, 243, 0.863);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+  .BtnExcel {
+  border-radius: 7px;
+  border-color: #04d855;
+  background-color: rgba(23, 202, 97, 0.863);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.BtnJira:hover{
+  background-color: #e9ebf0;
+  color: #1387f3;
+}
+.BtnExcel:hover{
+  background-color: #e9ebf0;
+  color: #06a034;
+}
+
+.BtnGenerar{
+  border-radius: 4px;
+  border-color: #038dff;
+  background-color: rgba(9, 131, 245, 0.863);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  height: 30px;
+}
+
+.BtnLimpiar{
+  border-radius: 4px;
+  border-color: #ec4166;
+  background-color: rgba(187, 63, 125, 0.863);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  height: 30px;
+}
+
+.BtnGenerar:hover{
+  background-color: white;
+  color: #038dff;
+}
+
+.BtnLimpiar:hover{
+  background-color: white;
+  color: #ec4166;
+}
