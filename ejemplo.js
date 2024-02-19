@@ -1,1 +1,2 @@
 SharedArrayBuffer
+console.log(hola);
